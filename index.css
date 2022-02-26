@@ -1,0 +1,54 @@
+html, body {
+     margin: 0;
+     padding: 0;
+     overscroll-behavior: none;
+}
+ * {
+     box-sizing: border-box;
+}
+ main {
+     display: flex;
+}
+ main textarea, main .markdown-body {
+     padding: 10px;
+     height: calc(100vh - 54px);
+     width: 50vw;
+     border: 3px solid #121314;
+     border-radius: 12px;
+}
+ main textarea {
+     resize: none;
+     outline: 0;
+     margin: 10px 5px 10px 10px;
+     font-size: 16px;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+ main .markdown-body {
+     overflow: auto;
+     margin: 10px 10px 10px 5px;
+}
+ main .markdown-body:empty:before {
+     content: 'And press command + p or ctrl + p to print PDF 🎉';
+     color: #7F7F7F;
+}
+ footer {
+     height: 34px;
+     padding: 0 10px;
+     font-size: 12px;
+     display: flex;
+}
+ footer a {
+     color: #7F7F7F;
+     text-decoration: none;
+}
+ @media print {
+     main textarea, footer {
+         display: none;
+    }
+     main .markdown-body {
+         width: 100%;
+         height: auto;
+         border: 0px;
+         padding: 0px;
+    }
+}

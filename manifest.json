@@ -1,0 +1,37 @@
+{
+  "id": "/",
+  "name": "Markdown to PDF",
+  "short_name": "MD to PDF",
+  "description": "⚡️ Lightweight and installable tool for convert markdown to PDF",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/icon/128.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/icon/144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/icon/192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon/256.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/icon/512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icon/1024.png",
+      "sizes": "1024x1024"
+    }
+  ]
+}
