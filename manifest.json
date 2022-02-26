@@ -10,16 +10,12 @@
   "display": "fullscreen",
   "icons": [
     {
+      "src": "/icon/64.png",
+      "sizes": "64x64"
+    },
+    {
       "src": "/icon/128.png",
       "sizes": "128x128"
-    },
-    {
-      "src": "/icon/144.png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "/icon/192.png",
-      "sizes": "192x192"
     },
     {
       "src": "/icon/256.png",
