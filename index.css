@@ -28,7 +28,7 @@ html, body {
      margin: 10px 10px 10px 5px;
 }
  main .markdown-body:empty:before {
-     content: 'And press command + p or ctrl + p to print PDF 🎉';
+     content: 'Press command + p or ctrl + p to print PDF 🎉';
      color: #7F7F7F;
 }
  footer {
